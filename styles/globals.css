@@ -4,4 +4,25 @@
 
 body {
   padding: 0;
+  background-color: #ffb2a7;
+}
+
+p {
+  color: azure;
+}
+
+button {
+  background-color: #cc0e74;
+}
+
+button:hover {
+  background-color: #940c54;
+}
+
+.card {
+  border-color: #790c5a;
+}
+
+.cute-text {
+  color: #e6739f;
 }
