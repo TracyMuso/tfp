@@ -26,7 +26,7 @@ export const NavMenuData: NavMenu[] = [
 
 export const ServiceCardData: serviceCardProps[] = [
   {
-    imgUrl: "/icons/settings-svgrepo-com.svg",
+    imgUrl: "/icons/settings-cog-svgrepo-com.svg",
     alt: "settings icon",
     title: "Easy to Maintain",
     text: "Assured long-term maintainability",
@@ -41,24 +41,24 @@ export const ServiceCardData: serviceCardProps[] = [
     imgUrl: "/icons/magic-wand-wizard-svgrepo-com.svg",
     alt: "magic-wand-icon",
     title: "Clean Design",
-    text: "Very professional and highly functional websites",
+    text: "Professional and functional websites",
   },
   {
     imgUrl: "/icons/alarm-svgrepo-com.svg",
     alt: "alarm-icon",
     title: "On time Project",
-    text: "Delivering excellent quality work in good time",
+    text: "Delivering excellent work in good time",
   },
   {
-    imgUrl: "/icons/support-services-svgrepo-com.svg",
+    imgUrl: "/icons/support-svgrepo-com.svg",
     alt: "support-icon",
     title: "Full Support",
-    text: "Need to tweak your website a bit, hit me up",
+    text: "Need an update? Hit me up",
   },
   {
     imgUrl: "/icons/thumbs-up-svgrepo-com.svg",
     alt: "thumbs-up-icon",
     title: "Built with SASS",
-    text: "Modern Websites built for scalability and efficiency",
+    text: "Modern websites built for scalability",
   },
 ];

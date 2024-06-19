@@ -20,7 +20,8 @@ button:hover {
 }
 
 .card {
-  border-color: #790c5a;
+  box-shadow: #790c5a;
+  background-color: #e6739f;
 }
 
 .cute-text {
