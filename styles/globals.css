@@ -26,3 +26,10 @@ button:hover {
 .cute-text {
   color: #e6739f;
 }
+
+.feature-item {
+  transition: all 0.2s ease-in-out 0s !important;
+}
+.feature-item:hover {
+  transform: translateY(-13px);
+}

@@ -5,7 +5,7 @@ import "../styles/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tracy Muso",
+  title: "Tracy Musongole | Software Developer",
   description: "My professional portfolio website",
 };
 
@@ -16,6 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
