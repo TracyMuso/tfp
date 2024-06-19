@@ -8,7 +8,7 @@ const Hero = () => {
           I`m Tracy
         </h1>
         <p className="text-xl leading-8 text-[#11010c] font-light py-6">
-          I am a software developer with 3 years of experience who loves to
+          I am a software developer with over 2 years of experience who loves to
           build things for the internet.
           <br />
           Ready to level up your online presence with an awesome website? Check
