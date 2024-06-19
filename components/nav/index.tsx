@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import GithubIcon from "../../public/images/icons/github-mark-white.svg";
+import GithubIcon from "../../public/icons/github-mark-white.svg";
 import { NavMenuData } from "@/constants/data";
 
 const NavMenu = () => {
