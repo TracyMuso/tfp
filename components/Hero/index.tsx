@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="w-full flex py-28 justify-center py-18 h-[85vh]">
+    <div className="w-full flex py-28 justify-center py-18 h-[90vh]">
       <div className="container text-center">
         <h1 className="text-[5rem] font-extrabold text-white leading-[6rem]">
           Hey!
