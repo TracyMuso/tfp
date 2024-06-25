@@ -1,9 +1,9 @@
 const About = () => {
   return (
-    <section>
-      <article>
-        <h2>About me</h2>
-        <p>
+    <section className="flex flex-col items-center font-Montserrat">
+      <article className="w-[90%] flex flex-col items-center pt-16 pb-6">
+        <h2 className="text-4xl font-bold text-gray-100">About me</h2>
+        <p className="text-gray-200 leading-7 py-4">
           Hello, my name is Tracy Musongole. I`m a software developer based in
           Zambia. My interest in software development started back in 2021 after
           I returned home from Russia(I studied in Moscow for a little while). I
@@ -17,29 +17,51 @@ const About = () => {
           web-apps. I do take on freelance projects too, so if you got an idea
           you wanna bring to life, don`t hesitate to reach out.
         </p>
-        <strong>Here are a couple of technologies I work with</strong>
-        <ul>
-          <li>Javascript</li>
-          <li>Typescript</li>
-          <li>Tailwindcss</li>
-        </ul>
-        <ul>
-          <li>Reactjs</li>
-          <li>Nextjs</li>
-          <li>Ruby on Rails</li>
-        </ul>
-      </article>
-      <div>
-        <h2>Where I`ve worked</h2>
-        <div>
-          <h4>The hot platform</h4>
-          <span>May 2023 - present</span>
-          <strong>Responsibilities</strong>
-          <ul>
-            <li>sumn</li>
-            <li>Sumn</li>
-            <li>Sumn</li>
+        <strong className="py-5 text-xl">
+          Here are a couple of technologies I work with
+        </strong>
+        <div className="flex items-center justify-around w-2/5">
+          <ul className="inline-block">
+            <li>Javascript</li>
+            <li>Typescript</li>
+            <li>Tailwindcss</li>
           </ul>
+          <ul className="inline-block">
+            <li>Reactjs</li>
+            <li>Nextjs</li>
+            <li>Redux</li>
+          </ul>
+        </div>
+      </article>
+      <div className="py-8">
+        <h2 className="text-2xl text-center font-bold py-4">
+          Where I`ve worked
+        </h2>
+        <div className="flex justify-between w-full gap-6">
+          <div className="w-[450px] border border-[#cc0e74] rounded-lg p-6 shadow ">
+            <div className="flex justify-between">
+              <h4 className="font-bold">The hot platform</h4>
+              <span className="italic ">May 2023 - present</span>
+            </div>
+            <p>Responsibilities</p>
+            <ul className="pl-4 py-2">
+              <li>sumn</li>
+              <li>Sumn</li>
+              <li>Sumn</li>
+            </ul>
+          </div>
+          <div className="w-[450px] border border-[#cc0e74] rounded-lg p-6 shadow ">
+            <div className="flex justify-between">
+              <h4 className="font-bold">The hot platform</h4>
+              <span className="italic ">May 2023 - present</span>
+            </div>
+            <p>Responsibilities</p>
+            <ul className="pl-4 py-2">
+              <li>sumn</li>
+              <li>Sumn</li>
+              <li>Sumn</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
