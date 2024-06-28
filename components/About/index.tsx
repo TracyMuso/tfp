@@ -17,10 +17,10 @@ const About = () => {
           web-apps. I do take on freelance projects too, so if you got an idea
           you wanna bring to life, don`t hesitate to reach out.
         </p>
-        <strong className="py-5 text-xl">
+        <h4 className="py-5 text-2xl">
           Here are a couple of technologies I work with
-        </strong>
-        <div className="flex items-center justify-around w-2/5">
+        </h4>
+        <div className="flex items-center justify-between w-2/3">
           <ul className="inline-block">
             <li>Javascript</li>
             <li>Typescript</li>
@@ -31,6 +31,11 @@ const About = () => {
             <li>Nextjs</li>
             <li>Redux</li>
           </ul>
+          <ul>
+            <li>Ethersjs</li>
+            <li>Docker</li>
+            <li>Figma</li>
+          </ul>
         </div>
       </article>
       <div className="py-8">
@@ -38,28 +43,38 @@ const About = () => {
           Where I`ve worked
         </h2>
         <div className="flex justify-between w-full gap-6">
-          <div className="w-[450px] border border-[#cc0e74] rounded-lg p-6 shadow ">
+          <div className="w-[500px] border border-[#cc0e74] rounded-lg p-6 shadow flex flex-col gap-5 ">
             <div className="flex justify-between">
               <h4 className="font-bold">The hot platform</h4>
               <span className="italic ">May 2023 - present</span>
             </div>
-            <p>Responsibilities</p>
+            <p className="italic">
+              Building and optimizing core components of the web-app
+            </p>
             <ul className="pl-4 py-2">
-              <li>sumn</li>
-              <li>Sumn</li>
-              <li>Sumn</li>
+              <li>Successfully migrated website from React to nextjs</li>
+              <li>Worked as frontend lead developer for a month</li>
+              <li>Evaluate user feedback and optimize website accordingly</li>
             </ul>
           </div>
-          <div className="w-[450px] border border-[#cc0e74] rounded-lg p-6 shadow ">
+          <div className="w-[500px] border border-[#cc0e74] rounded-lg p-6 shadow ">
             <div className="flex justify-between">
-              <h4 className="font-bold">The hot platform</h4>
+              <h4 className="font-bold">Ipahive</h4>
               <span className="italic ">May 2023 - present</span>
             </div>
-            <p>Responsibilities</p>
+            <p>
+              Worked as a solo frontend engineer building the growth capital
+              web-app from scratch
+            </p>
             <ul className="pl-4 py-2">
-              <li>sumn</li>
-              <li>Sumn</li>
-              <li>Sumn</li>
+              <li>
+                Built and maintained a robust micro-loan platform for users with
+                even minimal technical know-how.
+              </li>
+              <li>Managed the project with tools like vercel and git</li>
+              <li>
+                DWorked closely with CEO and developed roadmap for product
+              </li>
             </ul>
           </div>
         </div>
