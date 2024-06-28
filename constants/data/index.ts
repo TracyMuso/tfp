@@ -1,4 +1,4 @@
-import { type serviceCardProps } from "@/types";
+import { type serviceCardProps, type Projects } from "@/types";
 
 interface NavMenu {
   url: string;
@@ -60,5 +60,16 @@ export const ServiceCardData: serviceCardProps[] = [
     alt: "thumbs-up-icon",
     title: "Built with SASS",
     text: "Modern websites built for scalability",
+  },
+];
+
+export const ProjectData: Projects[] = [
+  {
+    img: "",
+    name: "",
+    description: "",
+    gitUrl: "",
+    liveUrl: "",
+    technologies: ["", "", ""],
   },
 ];

@@ -2,7 +2,6 @@ import NavMenu from "@/components/nav";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import About from "@/components/About";
-import ProjectCard from "@/components/Cards/projectsCard";
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
         <Hero />
         <Services />
         <About />
-        <ProjectCard />
       </main>
     </>
   );

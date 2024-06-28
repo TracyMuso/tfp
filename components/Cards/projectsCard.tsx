@@ -1,7 +1,14 @@
 import Image from "next/image";
+import { type Projects } from "@/types";
 
-// { img, name, description, gitUrl, liveUrl, technologies }
-const ProjectCard = () => {
+const ProjectCard = ({
+  img,
+  name,
+  description,
+  gitUrl,
+  liveUrl,
+  technologies,
+}: Projects) => {
   return (
     <div className="w-full py-12">
       <div className="w-2/3 mx-auto">
@@ -28,14 +35,16 @@ const ProjectCard = () => {
                 can check out the history of dpaceX rocket launches and reserve
                 rockets for a space trip.
               </p>
-              {/* <div>
-                          <span>Technologies used</span>
-                          {technologies.map((item, idx) => {
-                            return (
-                              <span key={idx} className="inline-block">{item}</span>
-                            )
-                          })}
-                          </div> */}
+              <div>
+                <span>Technologies used</span>
+                {technologies.map((item, idx) => {
+                  return (
+                    <span key={idx} className="inline-block">
+                      {item}
+                    </span>
+                  );
+                })}
+              </div>
               <div className="my-2 p-2 flex">
                 <a href="space-uber.netlify.app">
                   <i className="fa fa-chain text-2xl text-[#ff00cc] p-1"></i>
