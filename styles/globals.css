@@ -7,10 +7,6 @@ body {
   background-color: #ffb2a7;
 }
 
-p {
-  color: azure;
-}
-
 button {
   background-color: #cc0e74;
 }
@@ -33,4 +29,8 @@ button:hover {
 }
 .feature-item:hover {
   transform: translateY(-13px);
+}
+
+li {
+  list-style-type: square;
 }
