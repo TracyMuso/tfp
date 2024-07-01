@@ -65,11 +65,12 @@ export const ServiceCardData: serviceCardProps[] = [
 
 export const ProjectData: Projects[] = [
   {
-    img: "",
-    name: "",
-    description: "",
-    gitUrl: "",
-    liveUrl: "",
-    technologies: ["", "", ""],
+    img: "/Images/sth.png",
+    name: "Space travellers hub",
+    description:
+      "This is a website that fetches data from the spaceX API. A user can check out the history of dpaceX rocket launches and reserve rockets for a space trip",
+    gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
+    liveUrl: "https:space-uber.netlify.app",
+    technologies: ["Javascript", "React", "Redux"],
   },
 ];

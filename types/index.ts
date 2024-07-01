@@ -11,5 +11,5 @@ export type Projects = {
   description: string;
   gitUrl: string;
   liveUrl: string;
-  technologies: string[];
+  technologies: string[] | undefined;
 };
