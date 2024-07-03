@@ -20,7 +20,7 @@ const SecondaryProjectCard = ({
           {technologies?.map((item, idx) => {
             return (
               <span key={idx} className="inline-block px-2">
-                {item}
+                #{item}
               </span>
             );
           })}
