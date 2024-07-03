@@ -103,4 +103,13 @@ export const SecondaryProjectData: Projects[] = [
     liveUrl: "https:space-uber.netlify.app",
     technologies: ["Javascript", "React", "Redux"],
   },
+  {
+    img: "/icons/arrow-up-right-from-square-svgrepo-com.svg",
+    name: "Space travellers hub",
+    description:
+      "This is a website that displays history of dpaceX rocket launches and users can reserve rockets for a space trip",
+    gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
+    liveUrl: "https:space-uber.netlify.app",
+    technologies: ["Javascript", "React", "Redux"],
+  },
 ];

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { type Projects } from "@/types";
 
 const ProjectCard = ({
@@ -34,13 +35,33 @@ const ProjectCard = ({
               );
             })}
           </div>
-          <div className="my-2 p-2 flex">
-            <a href={liveUrl}>
-              <i className="fa fa-chain text-2xl text-[#ff00cc] p-1"></i>
-            </a>
-            <a href={gitUrl}>
-              <i className="fab fa-github text-2xl text-[#ff00cc] p-1"></i>
-            </a>
+          <div className="flex justify-between pt-4">
+            <Link
+              href={liveUrl}
+              className="block rounded-md border px-4 py-2 border-[#fd78bf] content-center hover:bg-pink-500"
+            >
+              <span className="pr-1 inline">See live</span>
+              <Image
+                className="inline"
+                src={"/icons/arrow-up-right-from-square-svgrepo-com.svg"}
+                height={20}
+                width={20}
+                alt="github icon"
+              />
+            </Link>
+            <Link
+              className="block rounded-md border px-4 py-2 border-[#fd78bf] content-center hover:bg-pink-500"
+              href={gitUrl}
+            >
+              <span className="inline pr-1">Source code</span>
+              <Image
+                className="inline"
+                src={"/icons/github-mark-white.svg"}
+                height={19}
+                width={20}
+                alt="github icon"
+              />
+            </Link>
           </div>
         </div>
       </div>
