@@ -73,4 +73,43 @@ export const ProjectData: Projects[] = [
     liveUrl: "https:space-uber.netlify.app",
     technologies: ["Javascript", "React", "Redux"],
   },
+  {
+    img: "/Images/sth.png",
+    name: "Space travellers hub",
+    description:
+      "This is a website that fetches data from the spaceX API. A user can check out the history of dpaceX rocket launches and reserve rockets for a space trip",
+    gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
+    liveUrl: "https:space-uber.netlify.app",
+    technologies: ["Javascript", "React", "Redux"],
+  },
+];
+
+export const SecondaryProjectData: Projects[] = [
+  {
+    img: "/icons/arrow-up-right-from-square-svgrepo-com.svg",
+    name: "Space travellers hub",
+    description:
+      "This is a website that displays history of dpaceX rocket launches and users can reserve rockets for a space trip",
+    gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
+    liveUrl: "https:space-uber.netlify.app",
+    technologies: ["Javascript", "React", "Redux"],
+  },
+  {
+    img: "/icons/arrow-up-right-from-square-svgrepo-com.svg",
+    name: "Space travellers hub",
+    description:
+      "This is a website that displays history of dpaceX rocket launches and users can reserve rockets for a space trip",
+    gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
+    liveUrl: "https:space-uber.netlify.app",
+    technologies: ["Javascript", "React", "Redux"],
+  },
+  {
+    img: "/icons/arrow-up-right-from-square-svgrepo-com.svg",
+    name: "Space travellers hub",
+    description:
+      "This is a website that displays history of dpaceX rocket launches and users can reserve rockets for a space trip",
+    gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
+    liveUrl: "https:space-uber.netlify.app",
+    technologies: ["Javascript", "React", "Redux"],
+  },
 ];
