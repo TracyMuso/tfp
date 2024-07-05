@@ -21,17 +21,17 @@ const About = () => {
           Here are a couple of technologies I work with
         </h4>
         <div className="flex items-center justify-between w-2/3">
-          <ul className="inline-block">
+          <ul className="p-5">
             <li>Javascript</li>
             <li>Typescript</li>
             <li>Tailwindcss</li>
           </ul>
-          <ul className="inline-block">
+          <ul className="p-5">
             <li>Reactjs</li>
             <li>Nextjs</li>
             <li>Redux</li>
           </ul>
-          <ul>
+          <ul className="p-5">
             <li>Ethersjs</li>
             <li>Docker</li>
             <li>Figma</li>
