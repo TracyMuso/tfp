@@ -12,12 +12,14 @@ h2,
 h3,
 h4 {
   color: #fff;
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 p,
 span,
 li {
   color: #f9dec9;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 button {
@@ -38,8 +40,8 @@ button:active {
 }
 
 .card {
-  box-shadow: #d80032;
-  background-color: #e6739f;
+  box-shadow: 8px 3px 3px #d80032;
+  background-color: #720026;
   border: solid 1px #720026;
   color: #4f000b;
 }
