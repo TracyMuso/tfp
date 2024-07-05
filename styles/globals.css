@@ -4,20 +4,44 @@
 
 body {
   padding: 0;
-  background-color: #ffb2a7;
+  background-color: #3d0c11;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+
+p,
+span,
+li {
+  color: #f9dec9;
 }
 
 button {
-  background-color: #cc0e74;
+  background-color: #ff7f51;
 }
 
 button:hover {
-  background-color: #fd78bf;
+  background-color: #ff9b54;
+}
+
+button:active {
+  background: #ffe1a8;
+  color: #4f000b;
+}
+
+.secondaryText {
+  color: #ce4257;
 }
 
 .card {
-  box-shadow: #ffb2a7;
+  box-shadow: #d80032;
   background-color: #e6739f;
+  border: solid 1px #720026;
+  color: #4f000b;
 }
 
 .cute-text {
