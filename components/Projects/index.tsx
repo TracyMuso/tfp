@@ -5,12 +5,12 @@ import { ProjectData, SecondaryProjectData } from "@/constants/data";
 
 const Projects = () => {
   return (
-    <section className="py-12 bg-[#cc0e74]">
+    <section className="py-12">
       <div className="flex flex-col gap-6">
-        <h2 className="text-center font-bold text-3xl py-4">
+        <h2 className="text-center font-bold text-4xl py-4">
           Some things I`ve worked on
         </h2>
-        <div className="flex flex-col gap-12 w-4/5 mx-auto">
+        <div className="flex flex-col gap-12 w-4/5 pt-6 pb-12 mx-auto">
           {ProjectData.map((item, idx) => (
             <ProjectCard key={idx} {...item} />
           ))}
@@ -23,8 +23,10 @@ const Projects = () => {
             ))}
           </div>
         </div>
-        <div className="mx-auto">
-          <Link href={"/project-archive"}>View archive</Link>
+        <div className="mx-auto ">
+          <Link className="text-xl text-white" href={"/project-archive"}>
+            View archive
+          </Link>
         </div>
       </div>
     </section>

@@ -11,15 +11,18 @@ const SecondaryProjectCard = ({
   technologies,
 }: Projects) => {
   return (
-    <div className="w-[300px] p-5 m-0 h-[250px] rounded-md border border-black mx-auto">
+    <div className="w-[320px] p-5 m-0 h-[250px] rounded-md card mx-auto">
       <div className="flex flex-col gap-2">
         <h4 className="font-bold text-xl">{name}</h4>
         <p className="leading-6 text-m">{description}</p>
-        <hr />
+        <hr className="" />
         <div className="block">
           {technologies?.map((item, idx) => {
             return (
-              <span key={idx} className="inline-block px-2">
+              <span
+                key={idx}
+                className="inline-block px-2 text-sm text-[#ffe1a8]"
+              >
                 #{item}
               </span>
             );

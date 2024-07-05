@@ -11,7 +11,7 @@ const ProjectCard = ({
   technologies,
 }: Projects) => {
   return (
-    <div className="w-11/12 mx-auto border border-[#fd78bf] rounded-md py-6 px-10 text-white">
+    <div className="w-11/12 mx-auto card rounded-md py-8 px-10 text-white">
       <div className="flex items-center gap-8">
         <div className="" data-aos="flip-left">
           <Image
@@ -25,11 +25,14 @@ const ProjectCard = ({
 
         <div className="details text-right w-2/5" data-aos="fade-left">
           <h4 className="pb-4 italic font-bold text-2xl">{name}</h4>
-          <p className="text-gray-800">{description}</p>
+          <p className="p-1">{description}</p>
           <div className="py-2">
             {technologies?.map((item, idx) => {
               return (
-                <span key={idx} className="inline-block px-2">
+                <span
+                  key={idx}
+                  className="inline-block px-2 text-sm text-[#ffe1a8]"
+                >
                   #{item}
                 </span>
               );
@@ -38,7 +41,7 @@ const ProjectCard = ({
           <div className="flex justify-between pt-4">
             <Link
               href={liveUrl}
-              className="block rounded-md border px-4 py-2 border-[#fd78bf] content-center hover:bg-pink-500"
+              className="block rounded-md border px-4 py-2 border-[#ff7f51] content-center hover:bg-[#ff9b54]"
             >
               <span className="pr-1 inline">See live</span>
               <Image
@@ -50,7 +53,7 @@ const ProjectCard = ({
               />
             </Link>
             <Link
-              className="block rounded-md border px-4 py-2 border-[#fd78bf] content-center hover:bg-pink-500"
+              className="block rounded-md border px-4 py-2 border-[#ff7f51] content-center hover:bg-[#ff9b54]"
               href={gitUrl}
             >
               <span className="inline pr-1">Source code</span>
