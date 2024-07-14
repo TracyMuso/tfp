@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { Libre_Baskerville, Source_Sans_3 } from "next/font/google";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -37,8 +40,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        Montserrat: ["Montserrat", "sans-serif"],
-        Poppins: ["Poppins", "sans-serif"],
+        Libre_Baskerville: ["Libre Baskerville ", "sans-serif"],
+        Source_Sans_3: ["Source Sans 3", "sans-serif"],
         Inter: ["Inter", "sans-serif"],
       },
       lineHeight: {

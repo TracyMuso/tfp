@@ -1,9 +1,9 @@
 const About = () => {
   return (
-    <section className="flex flex-col items-center font-Montserrat">
+    <section className="flex flex-col items-center">
       <article className="w-[90%] flex flex-col items-center pt-16 pb-6">
-        <h2 className="text-4xl font-bold text-gray-100">About me</h2>
-        <p className="text-gray-200 leading-7 py-4">
+        <h2 className="text-4xl font-bold">About me</h2>
+        <p className="leading-7 py-4">
           Hello, my name is Tracy Musongole. I`m a software developer based in
           Zambia. My interest in software development started back in 2021 after
           I returned home from Russia(I studied in Moscow for a little while). I
@@ -21,17 +21,17 @@ const About = () => {
           Here are a couple of technologies I work with
         </h4>
         <div className="flex items-center justify-between w-2/3">
-          <ul className="inline-block">
+          <ul className="p-5">
             <li>Javascript</li>
             <li>Typescript</li>
             <li>Tailwindcss</li>
           </ul>
-          <ul className="inline-block">
+          <ul className="p-5">
             <li>Reactjs</li>
             <li>Nextjs</li>
             <li>Redux</li>
           </ul>
-          <ul>
+          <ul className="p-5">
             <li>Ethersjs</li>
             <li>Docker</li>
             <li>Figma</li>
