@@ -1,43 +1,85 @@
+import Image from "next/image";
+import Link from "next/link";
+
+// const technologies = [
+//   {
+//     section: 1,
+//     tech: [
+//     'Javascript',
+//     'Typescript',
+//     'Tailwindcss'
+//     ]
+//   },
+//   {
+//     section: 2,
+//     tech: [
+//     'Reactjs',
+//     'Nextjs',
+//     'Redux',
+//     ]
+//   },
+//   {
+//     section: 3,
+//       tech: [
+//         'Ethersjs',
+//         'Docker',
+//         'Figma'
+//         ]
+//   }
+// ]
+
 const About = () => {
   return (
-    <section className="flex flex-col items-center">
-      <article className="w-[90%] flex flex-col items-center pt-16 pb-6">
-        <h2 className="text-4xl font-bold">About me</h2>
-        <p className="leading-7 py-4">
-          Hello, my name is Tracy Musongole. I`m a software developer based in
-          Zambia. My interest in software development started back in 2021 after
-          I returned home from Russia(I studied in Moscow for a little while). I
-          was amazed by how life can be made so much smoother with cutting edge
-          technology right at your finger tips. I decided to give it a go and
-          learn to develop software that would also make my life in Zambia much
-          smoother.
-          <br />
-          Fast forward to now, I have already had the priveledge of working with
-          a few local startups and built my own full fledged API`s websites and
-          web-apps. I do take on freelance projects too, so if you got an idea
-          you wanna bring to life, don`t hesitate to reach out.
-        </p>
-        <h4 className="py-5 text-2xl">
-          Here are a couple of technologies I work with
-        </h4>
-        <div className="flex items-center justify-between w-2/3">
-          <ul className="p-5">
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>Tailwindcss</li>
-          </ul>
-          <ul className="p-5">
-            <li>Reactjs</li>
-            <li>Nextjs</li>
-            <li>Redux</li>
-          </ul>
-          <ul className="p-5">
-            <li>Ethersjs</li>
-            <li>Docker</li>
-            <li>Figma</li>
-          </ul>
+    <section className="flex flex-col items-center py-12">
+      <div className="w-[90%] flex gap-5 items-center justify-between pt-16">
+        <div className="relative">
+          <div id="overlay" />
+          <Image
+            src={"/Images/pexels-cottonbro-5054212.jpg"}
+            alt="abstract-purple-background-picture"
+            width={380}
+            height={500}
+          />
         </div>
-      </article>
+        <article className="flex flex-col text-right w-[60%]">
+          <h2 className="text-4xl font-bold">About me</h2>
+          <p className="leading-7 py-4">
+            Hello, my name is Tracy Musongole. I`m a software developer based in
+            Zambia. My time spent living in Moscow, Russia taught me how life
+            can be made so much smoother with cutting edge technology right at
+            your finger tips. I decided to give it a go and learn to develop
+            software that would also make my life in Zambia much smoother.
+            <br />
+            Fast forward to now, I have already had the priveledge of working
+            with a few local startups and built my own full fledged API`s
+            websites and web-apps. I do take on freelance projects too, so if
+            you got an idea you wanna bring to life, don`t hesitate to reach
+            out.
+          </p>
+          <div className="pt-4">
+            <h4 className="pt-5 font-bold text-xl">
+              Here are a couple of technologies I work with
+            </h4>
+            <div className="ml-auto flex items-center justify-between w-2/3">
+              <ul className="flex flex-col gap-2 text-m items-start p-5 tech">
+                <li>Javascript</li>
+                <li>Typescript</li>
+                <li>Tailwindcss</li>
+              </ul>
+              <ul className="flex flex-col gap-2 text-m items-start p-5 tech">
+                <li>Reactjs</li>
+                <li>Nextjs</li>
+                <li>Redux</li>
+              </ul>
+              <ul className="flex flex-col gap-2 text-m items-start p-5 tech">
+                <li>Ethersjs</li>
+                <li>Docker</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
       <div className="py-8">
         <h2 className="text-2xl text-center font-bold py-4">
           Where I`ve worked
