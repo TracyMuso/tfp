@@ -15,14 +15,13 @@
     "test-all": "npm run check-format && npm run check-lint && npm run check-prettier && npm run check-types && npm run build"
   },
   "dependencies": {
-    "@next/font": "^14.0.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@typescript-eslint/parser": "^6.0.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8.0.1",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "^14.2.5",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
@@ -30,14 +29,14 @@
     "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
-    "next": "14.0.4",
+    "next": "^14.2.5",
     "postcss": "^8.4.32",
-    "react": "^18",
-    "react-dom": "^18",
-    "sass": "^1.69.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.8",
     "tailwindcss": "^3.3.0",
     "typescript": "*",
-    "webpack": "^5.89.0"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.0",
