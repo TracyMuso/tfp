@@ -11,7 +11,7 @@ const ProjectCard = ({
   technologies,
 }: Projects) => {
   return (
-    <div className="w-11/12 mx-auto card rounded-md py-8 px-10 text-white">
+    <div className="w-11/12 mx-auto rounded-md py-8 px-10 text-white">
       <div className="flex items-center gap-8">
         <div className="" data-aos="flip-left">
           <Image
@@ -25,7 +25,7 @@ const ProjectCard = ({
 
         <div className="details text-right w-2/5" data-aos="fade-left">
           <h4 className="pb-4 italic font-bold text-2xl">{name}</h4>
-          <p className="p-1">{description}</p>
+          <p className="p-1 font-light">{description}</p>
           <div className="py-2">
             {technologies?.map((item, idx) => {
               return (

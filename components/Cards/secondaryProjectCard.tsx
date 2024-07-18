@@ -11,7 +11,10 @@ const SecondaryProjectCard = ({
   technologies,
 }: Projects) => {
   return (
-    <div className="w-[320px] p-5 m-0 h-[250px] rounded-md card mx-auto">
+    <div
+      className="w-[320px] p-5 m-0 h-[250px] rounded-md card mx-auto"
+      data-aos="fade-up"
+    >
       <div className="flex flex-col gap-2">
         <h4 className="font-bold text-xl">{name}</h4>
         <p className="leading-6 text-m">{description}</p>
