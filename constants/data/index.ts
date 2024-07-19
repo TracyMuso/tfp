@@ -90,7 +90,7 @@ export const SecondaryProjectData: Projects[] = [
     description:
       "This is a website that displays history of dpaceX rocket launches and users can reserve rockets for a space trip",
     gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
-    liveUrl: "https:space-uber.netlify.app",
+    liveUrl: "https://space-uber.netlify.app",
     technologies: ["Javascript", "React", "Redux"],
   },
   {
@@ -99,7 +99,7 @@ export const SecondaryProjectData: Projects[] = [
     description:
       "This is a website that displays history of dpaceX rocket launches and users can reserve rockets for a space trip",
     gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
-    liveUrl: "https:space-uber.netlify.app",
+    liveUrl: "https://space-uber.netlify.app",
     technologies: ["Javascript", "React", "Redux"],
   },
   {
@@ -108,7 +108,7 @@ export const SecondaryProjectData: Projects[] = [
     description:
       "This is a website that displays history of dpaceX rocket launches and users can reserve rockets for a space trip",
     gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
-    liveUrl: "https:space-uber.netlify.app",
+    liveUrl: "https://space-uber.netlify.app",
     technologies: ["Javascript", "React", "Redux"],
   },
 ];

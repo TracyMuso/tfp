@@ -41,15 +41,17 @@ const SecondaryProjectCard = ({
               alt="github icon"
             />
           </Link>
-          <Link href={gitUrl}>
-            <Image
-              className="inline"
-              src={"/icons/github-mark-white.svg"}
-              height={20}
-              width={20}
-              alt="github icon"
-            />
-          </Link>
+          {gitUrl && (
+            <Link href={gitUrl}>
+              <Image
+                className="inline"
+                src={"/icons/github-mark-white.svg"}
+                height={20}
+                width={20}
+                alt="github icon"
+              />
+            </Link>
+          )}
         </div>
       </div>
     </div>

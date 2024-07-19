@@ -124,9 +124,7 @@ const About = () => {
                 even minimal technical know-how.
               </li>
               <li>Managed the project with tools like vercel and git</li>
-              <li>
-                DWorked closely with CEO and developed roadmap for product
-              </li>
+              <li>Worked closely with CEO and developed roadmap for product</li>
             </ul>
           </div>
         </div>
