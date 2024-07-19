@@ -19,5 +19,6 @@ module.exports = {
   rules: {
     "@typescript-eslint/consistent-type-definitions": ["off"],
     "@typescript-eslint/explicit-function-return-type": ["off"],
+    "@typescript-eslint/strict-boolean-expressions": "off",
   },
 };
