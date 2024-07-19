@@ -88,7 +88,7 @@ const About = () => {
           <div className="w-[500px] mr-auto border-l-[#f78ca2] border-s p-3 flex flex-col gap-4 ">
             <div className="flex justify-between">
               <Link
-                href={"https://thehotplatform.com"}
+                href={"https://www.linkedin.com/company/hotplatform"}
                 className="font-bold underline text-white"
               >
                 The hot platform
@@ -107,7 +107,7 @@ const About = () => {
           <div className="w-[500px] ml-auto p-3 flex flex-col gap-4 border-s border-l-[#f78ca2]">
             <div className="flex justify-between">
               <Link
-                href={"https://linkedin.com/in/company/ipahive"}
+                href={"https://linkedin.com/company/ipahive"}
                 className="font-bold underline text-white"
               >
                 Ipahive

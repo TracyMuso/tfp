@@ -9,7 +9,7 @@ export type Projects = {
   img: string;
   name: string;
   description: string;
-  gitUrl: string;
+  gitUrl?: string;
   liveUrl: string;
   technologies: string[] | undefined;
 };

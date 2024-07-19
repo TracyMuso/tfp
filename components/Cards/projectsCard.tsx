@@ -18,13 +18,13 @@ const ProjectCard = ({
             className="my-5"
             src={img}
             alt="project ui"
-            width={700}
+            width={800}
             height={550}
           />
         </div>
 
         <div className="details text-right w-2/5" data-aos="fade-left">
-          <h4 className="pb-4 italic font-bold text-2xl">{name}</h4>
+          <h4 className="pb-4 italic font-bold text-xl">{name}</h4>
           <p className="p-1 font-light">{description}</p>
           <div className="py-2">
             {technologies?.map((item, idx) => {
@@ -52,19 +52,21 @@ const ProjectCard = ({
                 alt="github icon"
               />
             </Link>
-            <Link
-              className="block rounded-md border px-4 py-2 border-[#ff7f51] content-center hover:bg-[#ff9b54]"
-              href={gitUrl}
-            >
-              <span className="inline pr-1">Source code</span>
-              <Image
-                className="inline"
-                src={"/icons/github-mark-white.svg"}
-                height={19}
-                width={20}
-                alt="github icon"
-              />
-            </Link>
+            {gitUrl && (
+              <Link
+                className="block rounded-md border px-4 py-2 border-[#ff7f51] content-center hover:bg-[#ff9b54]"
+                href={gitUrl}
+              >
+                <span className="inline pr-1">Source code</span>
+                <Image
+                  className="inline"
+                  src={"/icons/github-mark-white.svg"}
+                  height={19}
+                  width={20}
+                  alt="github icon"
+                />
+              </Link>
+            )}
           </div>
         </div>
       </div>

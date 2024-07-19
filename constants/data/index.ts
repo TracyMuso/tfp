@@ -65,22 +65,21 @@ export const ServiceCardData: serviceCardProps[] = [
 
 export const ProjectData: Projects[] = [
   {
-    img: "/Images/sth.png",
-    name: "Space travellers hub",
+    img: "/Images/blk.png",
+    name: "Blockchain World conference",
     description:
-      "This is a website that fetches data from the spaceX API. A user can check out the history of dpaceX rocket launches and reserve rockets for a space trip",
-    gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
-    liveUrl: "https:space-uber.netlify.app",
-    technologies: ["Javascript", "React", "Redux"],
+      "This is a responsive website built for a conference where leaders in the blockchain sectors will be speaking",
+    gitUrl: "https://github.com/TracyMuso/Capstone-project-1",
+    liveUrl: "https://tracymuso.github.io/Capstone-project-1/",
+    technologies: ["Javascript", "HTML", "CSS"],
   },
   {
-    img: "/Images/sth.png",
-    name: "Space travellers hub",
+    img: "/Images/mf.png",
+    name: "Mighty finance",
     description:
-      "This is a website that fetches data from the spaceX API. A user can check out the history of dpaceX rocket launches and reserve rockets for a space trip",
-    gitUrl: "https://github.com/TracyMuso/space-travelers-hub-online",
-    liveUrl: "https:space-uber.netlify.app",
-    technologies: ["Javascript", "React", "Redux"],
+      "This is a modern day loan lending platfrom that allows undeserved markets to quickly and efficiently get financing",
+    liveUrl: "https://mighty-finance-frontend.vercel.app/",
+    technologies: ["Typescript", "Nextjs", "Redux"],
   },
 ];
 
