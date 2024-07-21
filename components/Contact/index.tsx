@@ -10,7 +10,7 @@ const Contact = () => {
       <h2 className="font-bold text-4xl">Get in touch</h2>
       <p className="w-4/5 pt-8 text-center">
         I am looking for new opportunies and very open to collaboration on
-        projects. Please do not hesitate to reach out :) I'd love to hear from
+        projects. Please do not hesitate to reach out :) I`d love to hear from
         you!
       </p>
       <div className="border border-[#e6739f] rounded-md px-2 py-5 w-2/5 flex flex-col gap2 items-center">

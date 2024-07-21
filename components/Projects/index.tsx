@@ -17,17 +17,17 @@ const Projects = () => {
         </div>
         <div className="noteworthy-projects hidden flex-col gap-12 py-12">
           <h2 className="text-center text-3xl">Other Noteworthy projects</h2>
-          <div className="flex w-4/5 mx-auto item-center">
+          <div className="flex w-4/5 pb-3 mx-auto item-center">
             {SecondaryProjectData.map((item, idx) => (
               <SecondaryProjectCard key={idx} {...item} />
             ))}
+            <Link
+              className="text-xl text-center text-white"
+              href={"/project-archive"}
+            >
+              View archive
+            </Link>
           </div>
-          <Link
-            className="text-xl text-center text-white"
-            href={"/project-archive"}
-          >
-            View archive
-          </Link>
         </div>
       </div>
     </section>

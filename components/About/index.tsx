@@ -30,7 +30,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="flex flex-col items-center py-12">
+    <section id="about" className="flex flex-col items-center py-12">
       <div className="w-[90%] flex gap-5 items-center justify-between pt-16">
         <div className="relative">
           <div id="overlay" />
