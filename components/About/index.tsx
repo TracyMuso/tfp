@@ -30,7 +30,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="flex flex-col items-center py-12">
+    <section id="about" className="flex flex-col items-center py-12">
       <div className="w-[90%] flex gap-5 items-center justify-between pt-16">
         <div className="relative">
           <div id="overlay" />
@@ -112,7 +112,7 @@ const About = () => {
               >
                 Ipahive
               </Link>
-              <span className="italic ">May 2023 - present</span>
+              <span className="italic ">Dec 2023 - May-2024</span>
             </div>
             <span className="italic text-[#ff9b54]">
               Worked as a solo frontend engineer building the growth capital

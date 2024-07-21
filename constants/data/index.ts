@@ -15,8 +15,8 @@ export const NavMenuData: NavMenu[] = [
     url: "#projects",
   },
   {
-    title: "Experience",
-    url: "#experience",
+    title: "Services",
+    url: "#services",
   },
   {
     title: "Contact",

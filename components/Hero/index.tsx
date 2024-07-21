@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Hero = () => {
   return (
     <div className="w-full flex py-28 justify-center py-18 h-[90vh]">
@@ -14,9 +16,12 @@ const Hero = () => {
           Ready to level up your online presence with an awesome website? Check
           out some of my best work!
         </p>
-        <button className="border-none rounded py-3 px-5 w-1/3 font-bold text-white text-xl">
+        <Link
+          href={"#button"}
+          className="bg-[#ff7f51] rounded-xl py-3 px-16 text-white text-xl"
+        >
           Go to projects
-        </button>
+        </Link>
       </div>
     </div>
   );
