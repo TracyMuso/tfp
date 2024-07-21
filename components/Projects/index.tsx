@@ -5,7 +5,7 @@ import { ProjectData, SecondaryProjectData } from "@/constants/data";
 
 const Projects = () => {
   return (
-    <section className="py-12">
+    <section id="projects" className="py-12">
       <div className="flex flex-col gap-6">
         <h2 className="text-center text-4xl py-4 underline">
           Some things I`ve worked on

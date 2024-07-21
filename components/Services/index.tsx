@@ -3,7 +3,10 @@ import ServiceCard from "../Cards/serviceCard";
 
 const Services = () => {
   return (
-    <section className="h-[100vh] w-full flex flex-col gap-6 items-center px-22">
+    <section
+      id="services"
+      className="w-full flex flex-col gap-6 items-center px-22"
+    >
       <div className="flex flex-col items-center text-center pt-12">
         <h2 className="text-4xl text-center ">My Services</h2>
         <p className="p-2 italic w-[90%] text-ce text-xl text-[#ff9b54]">

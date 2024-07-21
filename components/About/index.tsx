@@ -112,7 +112,7 @@ const About = () => {
               >
                 Ipahive
               </Link>
-              <span className="italic ">May 2023 - present</span>
+              <span className="italic ">Dec 2023 - May-2024</span>
             </div>
             <span className="italic text-[#ff9b54]">
               Worked as a solo frontend engineer building the growth capital
