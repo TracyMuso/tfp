@@ -71,15 +71,24 @@ export const ProjectData: Projects[] = [
       "This is a responsive website built for a conference where leaders in the blockchain sectors will be speaking",
     gitUrl: "https://github.com/TracyMuso/Capstone-project-1",
     liveUrl: "https://tracymuso.github.io/Capstone-project-1/",
-    technologies: ["Javascript", "HTML", "CSS"],
+    technologies: ["Javascript", "HTML", "CSS", "Responsive"],
   },
+  // {
+  //   img: "/Images/mf.png",
+  //   name: "Mighty finance",
+  //   description:
+  //     "This is a modern day loan lending platfrom that allows undeserved markets to quickly and efficiently get financing",
+  //   liveUrl: "https://mighty-finance-frontend.vercel.app/",
+  //   technologies: ["Typescript", "Nextjs", "Redux", ],
+  // },
   {
-    img: "/Images/mf.png",
-    name: "Mighty finance",
+    img: "/Images/belle-preview.png",
+    name: "Belle Beauty Parlor",
     description:
-      "This is a modern day loan lending platfrom that allows undeserved markets to quickly and efficiently get financing",
-    liveUrl: "https://mighty-finance-frontend.vercel.app/",
-    technologies: ["Typescript", "Nextjs", "Redux"],
+      "This is a modern day website for a beauty parlor. I used a very feminine design scheme and simplified navigation.",
+    liveUrl: "https://belle-delta.vercel.app/",
+    gitUrl: "https://github.com/TracyMuso/belle",
+    technologies: ["Typescript", "Nextjs", "Vercel", "Responsive"],
   },
 ];
 

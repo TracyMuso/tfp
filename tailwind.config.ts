@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Libre_Baskerville, Source_Sans_3 } from "next/font/google";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
