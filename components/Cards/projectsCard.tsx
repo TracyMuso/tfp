@@ -11,8 +11,8 @@ const ProjectCard = ({
   technologies,
 }: Projects) => {
   return (
-    <div className="w-11/12 mx-auto rounded-md py-8 px-10 text-white">
-      <div className="flex items-center gap-8">
+    <div className="w-11/12 mx-auto rounded-md py-8 xl:px-10 text-white">
+      <div className="flex items-center lg:gap-8">
         <div className="" data-aos="flip-left">
           <Image
             className="my-5"
@@ -24,13 +24,13 @@ const ProjectCard = ({
         </div>
 
         <div
-          className="details flex flex-col items-end w-2/5"
+          className="details flex flex-col items-end xl:w-2/5 lg:w-1/2"
           data-aos="fade-left"
         >
-          <h4 className="pb-4 italic font-bold text-xl">{name}</h4>
-          <p className="p-1 font-light text-pink-50 text-right">
-            {description}
-          </p>
+          <h4 className="pb-4 italic font-semibold text-right xl:text-xl">
+            {name}
+          </h4>
+          <p className="p-1 text-pink-50 text-right">{description}</p>
           <div className="py-2">
             {technologies?.map((item, idx) => {
               return (
@@ -48,7 +48,9 @@ const ProjectCard = ({
               href={liveUrl}
               className="block rounded-md px-4 py-2 primary content-center"
             >
-              <span className="pr-1 inline">See live</span>
+              <span className="pr-1 inline-flex items-center gap-1">
+                See live
+              </span>
               <Image
                 className="inline"
                 src={"/icons/arrow-up-right-from-square-svgrepo-com.svg"}
@@ -62,9 +64,11 @@ const ProjectCard = ({
                 className="block rounded-md px-4 py-2 content-center secondary"
                 href={gitUrl}
               >
-                <span className="inline pr-1">Source code</span>
+                <span className="inline-flex items-center pr-1">
+                  Source code
+                </span>
                 <Image
-                  className="inline"
+                  className="inline "
                   src={"/icons/github-mark-white.svg"}
                   height={19}
                   width={20}

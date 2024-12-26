@@ -5,7 +5,7 @@ const serviceData: string[] = [
   "Website debugging",
   "Website maintenance",
   "Domain Setup and integration",
-  "Seaarch Engine Optimisation",
+  "Search Engine Optimisation",
   "Website Copywriting",
 ];
 
@@ -16,13 +16,13 @@ const Services = () => {
       className="w-full flex flex-col gap-9 items-center py-16 px-22"
     >
       <div className="flex flex-col items-center text-center">
-        <h2 className="text-5xl text-center">My Services</h2>
-        <span className="py-5 text-xl">
+        <h2 className="xl:text-5xl lg:text-4xl text-center">My Services</h2>
+        <span className="py-5 xl:text-xl">
           Primarily, I create custom websites for my clients, but I also offer
           the following services:
         </span>
       </div>
-      <div className="w-1/2 mx-auto">
+      <div className="xl:w-1/2 mx-auto">
         <ul className="grid grid-cols-2 gap-4 w-full">
           {serviceData.map((item, idx) => (
             <li key={idx} className="inline-flex items-center gap-1">

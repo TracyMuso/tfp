@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-12">
       <div className="flex flex-col gap-6">
-        <h2 className="text-center text-4xl py-4">
+        <h2 className="text-center xl:text-4xl lg:text-3xl py-4">
           Some things I`ve worked on
         </h2>
         <div className="flex flex-col gap-12 2xl:w-4/5 w-full pt-6 pb-12 mx-auto">

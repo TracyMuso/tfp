@@ -7,8 +7,8 @@ const Contact = () => {
       id="contact"
       className="w-full pb-8 px-6 flex flex-col gap-4 items-center"
     >
-      <h2 className="text-5xl">Get in touch</h2>
-      <p className="w-4/5 pt-8 text-center">
+      <h2 className="xl:text-5xl lg:text-4xl">Get in touch</h2>
+      <p className="w-4/5 pt-8 pb-4 text-center">
         I am looking for new opportunies and very open to collaboration on
         projects. I`d love to hear from you!
       </p>
