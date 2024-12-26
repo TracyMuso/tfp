@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const techStack: string[] = [
@@ -16,16 +15,18 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex flex-col items-center py-12 lg:px-20 sm:px-10"
+      className="flex flex-col items-center py-12 lg:px-20 sm:px-10 px-6"
     >
-      <div className=" flex gap-5 items-center justify-between pt-16 px-12">
+      <div className=" flex gap-5 items-center justify-between md:pt-16 md:px-12">
         <article className="flex flex-col justify-between lg:items-end items-center lg:text-right">
-          <h2 className="xl:text-5xl lg:text-4xl sm:text-3xl">About me</h2>
-          <p className="leading-7 py-4 lg:w-4/5 lg:text-right text-center text-pink-50">
+          <h2 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl">
+            About me
+          </h2>
+          <p className="leading-7 py-4 lg:w-4/5 w-full lg:text-right text-center text-pink-50">
             Hello, my name is Tracy. I`m a software developer based in Zambia. I
             love bringing my ideas to life on my laptop. I am sure that part was
             obvious :) I have had the priveledge of working with a few local
-            companies and businesses. Outside of work, I'll be at home watching
+            companies and businesses. Outside of work, I`ll be at home watching
             series or taking a stroll with friends. I am open to more
             collaborations and opportunities! If you got an idea you wanna bring
             to life, don`t hesitate to reach out.
@@ -35,7 +36,7 @@ const About = () => {
               Here are a couple of technologies I work with
             </h4>
             <div className="ml-auto">
-              <ul className="grid grid-cols-2  text-m list-disc text-left py-5">
+              <ul className="grid grid-cols-2 text-m list-disc text-left py-5 px-5">
                 {techStack.map((item, idx) => (
                   <li className="p-1" key={idx}>
                     {item}
@@ -46,12 +47,12 @@ const About = () => {
           </div>
         </article>
       </div>
-      <div className="pb-6 pt-16 flex flex-col items-center gap-9 w-full px-12">
+      <div className="pb-6 pt-16 flex flex-col items-center gap-9 w-full sm:px-12">
         <h2 className="lg:text-3xl text-2xl xl:font-semibold py-8">
           Where I`ve worked
         </h2>
         <div className="xl:w-[85%] w-full flex flex-col gap-12">
-          <div className="w-[500px] mr-auto border-l-[#f78ca2] border-s p-3 flex flex-col gap-4 ">
+          <div className="sm:w-[500px] sm:mr-auto border-l-[#f78ca2] border-s p-3 flex flex-col gap-4 ">
             <div className="flex justify-between">
               <Link
                 href={"https://www.linkedin.com/company/hotplatform"}
@@ -70,7 +71,7 @@ const About = () => {
               <li>Evaluate user feedback and optimize website accordingly</li>
             </ul>
           </div>
-          <div className="w-[500px] ml-auto p-3 flex flex-col gap-4 border-s border-l-[#f78ca2]">
+          <div className="sm:w-[500px] sm:ml-auto p-3 flex flex-col gap-4 border-s border-l-[#f78ca2]">
             <div className="flex justify-between">
               <Link
                 href={"https://linkedin.com/company/ipahive"}

@@ -5,12 +5,12 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full pb-8 px-16 flex flex-col gap-4 items-center"
+      className="w-full pb-8 sm:px-16 px-6 flex flex-col gap-4 items-center"
     >
       <h2 className="xl:text-5xl lg:text-4xl sm:text-2xl text-xl">
         Get in touch
       </h2>
-      <p className="w-4/5 pt-8 pb-4 text-center">
+      <p className="sm:w-4/5 w-full md:pt-8 pb-4 text-center">
         I am looking for new opportunies and very open to collaboration on
         projects. I`d love to hear from you!
       </p>
@@ -27,39 +27,44 @@ const Contact = () => {
           <Link href={"https://linkedin.com/in/tracy-muso"}>
             <Image
               src={"/icons/linkedin-linked-in-svgrepo-com.svg"}
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               alt="linkedin-icon"
             />
           </Link>
           <Link href={"https//github.com/TracyMuso"}>
             <Image
               src={"/Images/github-mark-orange.svg"}
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               alt="github-icon"
             />
           </Link>
         </div>
         <hr className="bg-[#e6739f] w-3/4 h-[2px]" />
-        <div className="flex justify-between items-center w-2/3 py-5">
+        <div className="flex justify-between items-center sm:w-2/3 w-full py-5">
           <div className="flex items-center">
             <Image
               src={"/icons/system-uicons_location.svg"}
-              width={30}
-              height={30}
+              width={20}
+              height={20}
               alt="location-icon"
             />
-            <span className="text-pink-50">Lusaka, Zambia</span>
+            <span className="text-pink-50 text-sm md:text-[16px]">
+              Lusaka, Zambia
+            </span>
           </div>
           <div className="flex items-center">
             <Image
               src={"/icons/telephone-svgrepo-com.svg"}
-              width={30}
-              height={30}
+              width={20}
+              height={20}
               alt="telephone-icon"
             />
-            <Link href={"tel:0779431887"} className="pl-1 text-pink-50">
+            <Link
+              href={"tel:0779431887"}
+              className="pl-1 text-pink-50 text-sm md:text-[16px]"
+            >
               +260779431887
             </Link>
           </div>
