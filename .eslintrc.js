@@ -5,10 +5,9 @@ module.exports = {
   },
   extends: [
     "plugin:react/recommended",
-    "standard-with-typescript",
+    "love",
     "prettier",
     "next/core-web-vitals",
-    "plugin:storybook/recommended",
   ],
   overrides: [],
   parserOptions: {
@@ -19,6 +18,7 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "@typescript-eslint/consistent-type-definitions": ["off"],
-    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-function-return-type": ["off"],
+    "@typescript-eslint/strict-boolean-expressions": "off",
   },
 };
