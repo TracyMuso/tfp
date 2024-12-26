@@ -23,9 +23,14 @@ const ProjectCard = ({
           />
         </div>
 
-        <div className="details text-right w-2/5" data-aos="fade-left">
+        <div
+          className="details flex flex-col items-end w-2/5"
+          data-aos="fade-left"
+        >
           <h4 className="pb-4 italic font-bold text-xl">{name}</h4>
-          <p className="p-1 font-light text-pink-50">{description}</p>
+          <p className="p-1 font-light text-pink-50 text-right">
+            {description}
+          </p>
           <div className="py-2">
             {technologies?.map((item, idx) => {
               return (
@@ -38,7 +43,7 @@ const ProjectCard = ({
               );
             })}
           </div>
-          <div className="flex justify-between pt-4">
+          <div className="flex gap-6 pt-4 ">
             <Link
               href={liveUrl}
               className="block rounded-md px-4 py-2 primary content-center"

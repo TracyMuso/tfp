@@ -10,7 +10,7 @@ const Projects = () => {
         <h2 className="text-center text-4xl py-4">
           Some things I`ve worked on
         </h2>
-        <div className="flex flex-col gap-12 w-4/5 pt-6 pb-12 mx-auto">
+        <div className="flex flex-col gap-12 2xl:w-4/5 w-full pt-6 pb-12 mx-auto">
           {ProjectData.map((item, idx) => (
             <ProjectCard key={idx} {...item} />
           ))}
