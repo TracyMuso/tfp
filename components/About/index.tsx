@@ -60,7 +60,7 @@ const About = () => {
               >
                 The hot platform
               </Link>
-              <span className="italic">May 2023 - present</span>
+              <span className="italic">May 2023 - May 2024</span>
             </div>
             <p className="italic text-[#ff9b54]">
               Building and optimizing core components of the web-app
