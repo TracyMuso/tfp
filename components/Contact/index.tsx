@@ -5,14 +5,16 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full pb-8 px-6 flex flex-col gap-4 items-center"
+      className="w-full pb-8 px-16 flex flex-col gap-4 items-center"
     >
-      <h2 className="xl:text-5xl lg:text-4xl">Get in touch</h2>
+      <h2 className="xl:text-5xl lg:text-4xl sm:text-2xl text-xl">
+        Get in touch
+      </h2>
       <p className="w-4/5 pt-8 pb-4 text-center">
         I am looking for new opportunies and very open to collaboration on
         projects. I`d love to hear from you!
       </p>
-      <div className="border border-[#e6739f] rounded-md px-2 py-5 w-2/5 flex flex-col gap2 items-center">
+      <div className="border border-[#e6739f] rounded-md px-2 py-5 lg:w-2/5 w-full flex flex-col gap-2 items-center">
         <div className="flex gap-2 items-center justify-between w-3/5 pt-3 pb-5">
           <Link href={"mailto:musongoletracy@gmail.com"}>
             <Image

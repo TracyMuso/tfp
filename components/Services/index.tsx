@@ -16,7 +16,9 @@ const Services = () => {
       className="w-full flex flex-col gap-9 items-center py-16 px-22"
     >
       <div className="flex flex-col items-center text-center">
-        <h2 className="xl:text-5xl lg:text-4xl text-center">My Services</h2>
+        <h2 className="xl:text-5xl lg:text-4xl sm:text-3xl text-center">
+          My Services
+        </h2>
         <span className="py-5 xl:text-xl">
           Primarily, I create custom websites for my clients, but I also offer
           the following services:

@@ -7,7 +7,7 @@ import MobileNav from "./mobileNav";
 
 const NavMenu = () => {
   return (
-    <nav className="flex justify-between w-full items-center px-6 py-3 m-0 text-white border-b-[#f78ca2] border font-Libre_Baskerville h-[15vh]">
+    <nav className="flex justify-between w-full items-center px-6 py-3 m-0 text-white border-b-[#f78ca2] border font-Libre_Baskerville lg:h-[15vh] h-[12vh]">
       <div className="logo text-2xl font-bold cursor-pointer">TM</div>
       <div className="lg:flex hidden justify-around gap-6 items-center">
         {NavMenuData.map((item, idx) => {

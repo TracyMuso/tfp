@@ -14,11 +14,14 @@ const techStack: string[] = [
 
 const About = () => {
   return (
-    <section id="about" className="flex flex-col items-center py-12 px-20">
+    <section
+      id="about"
+      className="flex flex-col items-center py-12 lg:px-20 sm:px-10"
+    >
       <div className=" flex gap-5 items-center justify-between pt-16 px-12">
-        <article className="flex flex-col justify-between items-end text-right">
-          <h2 className="xl:text-5xl lg:text-4xl">About me</h2>
-          <p className="leading-7 py-4 w-4/5 text-right text-pink-50">
+        <article className="flex flex-col justify-between lg:items-end items-center lg:text-right">
+          <h2 className="xl:text-5xl lg:text-4xl sm:text-3xl">About me</h2>
+          <p className="leading-7 py-4 lg:w-4/5 lg:text-right text-center text-pink-50">
             Hello, my name is Tracy. I`m a software developer based in Zambia. I
             love bringing my ideas to life on my laptop. I am sure that part was
             obvious :) I have had the priveledge of working with a few local
@@ -44,7 +47,9 @@ const About = () => {
         </article>
       </div>
       <div className="pb-6 pt-16 flex flex-col items-center gap-9 w-full px-12">
-        <h2 className="text-3xl xl:font-semibold py-8">Where I`ve worked</h2>
+        <h2 className="lg:text-3xl text-2xl xl:font-semibold py-8">
+          Where I`ve worked
+        </h2>
         <div className="xl:w-[85%] w-full flex flex-col gap-12">
           <div className="w-[500px] mr-auto border-l-[#f78ca2] border-s p-3 flex flex-col gap-4 ">
             <div className="flex justify-between">
