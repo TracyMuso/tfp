@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 0F0E0E primary bg
+541212 maroon
+8B9A46 light green
+EEEEEE light blue primary bg-light
+*/
+
 body {
   padding: 0;
-  background-color: #3d0c11;
+  background-color: #020202;
 }
 
 h1,
@@ -22,17 +28,31 @@ li {
   font-family: "Source Sans 3", sans-serif;
 }
 
-button {
-  background-color: #ff7f51;
+.primary {
+  background-color: #cf5209;
 }
 
-button:hover {
-  background-color: #ff9b54;
+.primary:hover {
+  background-color: #e06c18;
 }
 
-button:active {
-  background: #ffe1a8;
-  color: #4f000b;
+.primary:active {
+  background: #cf5209;
+  color: #ffffff;
+}
+
+.secondary {
+  border-radius: 13px;
+  border: 1px solid #cf5209;
+}
+
+.secondary:hover {
+  background-color: #fd9a53;
+}
+
+.secondary:active {
+  background: #cf5209;
+  color: #ffffff;
 }
 
 .secondaryText {
@@ -41,7 +61,7 @@ button:active {
 
 .card {
   box-shadow: 8px 3px 3px #d80032;
-  background-color: #720026;
+  background-color: #900c27;
   border: solid 1px #720026;
   color: #4f000b;
 }

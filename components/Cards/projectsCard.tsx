@@ -25,7 +25,7 @@ const ProjectCard = ({
 
         <div className="details text-right w-2/5" data-aos="fade-left">
           <h4 className="pb-4 italic font-bold text-xl">{name}</h4>
-          <p className="p-1 font-light">{description}</p>
+          <p className="p-1 font-light text-pink-50">{description}</p>
           <div className="py-2">
             {technologies?.map((item, idx) => {
               return (
@@ -41,7 +41,7 @@ const ProjectCard = ({
           <div className="flex justify-between pt-4">
             <Link
               href={liveUrl}
-              className="block rounded-md border px-4 py-2 border-[#ff7f51] content-center hover:bg-[#ff9b54]"
+              className="block rounded-md px-4 py-2 primary content-center"
             >
               <span className="pr-1 inline">See live</span>
               <Image
@@ -54,7 +54,7 @@ const ProjectCard = ({
             </Link>
             {gitUrl && (
               <Link
-                className="block rounded-md border px-4 py-2 border-[#ff7f51] content-center hover:bg-[#ff9b54]"
+                className="block rounded-md px-4 py-2 content-center secondary"
                 href={gitUrl}
               >
                 <span className="inline pr-1">Source code</span>

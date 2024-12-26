@@ -1,80 +1,43 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// const technologies = [
-//   {
-//     section: 1,
-//     tech: [
-//     'Javascript',
-//     'Typescript',
-//     'Tailwindcss'
-//     ]
-//   },
-//   {
-//     section: 2,
-//     tech: [
-//     'Reactjs',
-//     'Nextjs',
-//     'Redux',
-//     ]
-//   },
-//   {
-//     section: 3,
-//       tech: [
-//         'Ethersjs',
-//         'Docker',
-//         'Figma'
-//         ]
-//   }
-// ]
+const techStack: string[] = [
+  "Javascript",
+  "Typescript",
+  "Tailwindcss",
+  "Reactjs",
+  "Nextjs",
+  "Redux",
+  "Docker",
+  "Vercel",
+];
 
 const About = () => {
   return (
-    <section id="about" className="flex flex-col items-center py-12">
-      <div className="w-[90%] flex gap-5 items-center justify-between pt-16">
-        <div className="relative">
-          <div id="overlay" />
-          <Image
-            src={"/Images/pexels-cottonbro-5054212.jpg"}
-            alt="abstract-purple-background-picture"
-            width={380}
-            height={500}
-          />
-        </div>
-        <article className="flex flex-col justify-between text-right w-[60%]">
-          <h2 className="text-4xl">About me</h2>
-          <p className="leading-7 py-4">
-            Hello, my name is Tracy Musongole. I`m a software developer based in
-            Zambia. My time spent living in Moscow, Russia taught me how life
-            can be made so much smoother with cutting edge technology right at
-            your finger tips. I decided to give it a go and learn to develop
-            software that would also make my life in Zambia much smoother.
-            <br />
-            Fast forward to now, I have already had the priveledge of working
-            with a few local startups and built my own full fledged API`s
-            websites and web-apps. I do take on freelance projects too, so if
-            you got an idea you wanna bring to life, don`t hesitate to reach
-            out.
+    <section id="about" className="flex flex-col items-center py-12 px-20">
+      <div className=" flex gap-5 items-center justify-between pt-16 px-12">
+        <article className="flex flex-col justify-between items-end text-right">
+          <h2 className="text-5xl">About me</h2>
+          <p className="leading-7 py-4 w-4/5 text-right text-pink-50">
+            Hello, my name is Tracy. I`m a software developer based in Zambia. I
+            love bringing my ideas to life on my laptop. I am sure that part was
+            obvious :) I have had the priveledge of working with a few local
+            companies and businesses. Outside of work, I'll be at home watching
+            series or taking a stroll with friends. I am open to more
+            collaborations and opportunities! If you got an idea you wanna bring
+            to life, don`t hesitate to reach out.
           </p>
           <div className="pt-4">
             <h4 className="pt-5 text-2xl">
               Here are a couple of technologies I work with
             </h4>
-            <div className="ml-auto flex items-center justify-between w-2/3">
-              <ul className="flex flex-col gap-2 text-m items-start p-5 tech">
-                <li>Javascript</li>
-                <li>Typescript</li>
-                <li>Tailwindcss</li>
-              </ul>
-              <ul className="flex flex-col gap-2 text-m items-start p-5 tech">
-                <li>Reactjs</li>
-                <li>Nextjs</li>
-                <li>Redux</li>
-              </ul>
-              <ul className="flex flex-col gap-2 text-m items-start p-5 tech">
-                <li>Ethersjs</li>
-                <li>Docker</li>
-                <li>Figma</li>
+            <div className="ml-auto">
+              <ul className="grid grid-cols-2  text-m list-disc text-left py-5">
+                {techStack.map((item, idx) => (
+                  <li className="p-1" key={idx}>
+                    {item}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

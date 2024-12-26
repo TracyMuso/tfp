@@ -5,7 +5,7 @@ import { NavMenuData } from "@/constants/data";
 
 const NavMenu = () => {
   return (
-    <nav className="flex justify-between w-full items-center px-6 py-3 m-0 text-white border-b-[#f78ca2] border font-Libre_Baskerville h-[10vh]">
+    <nav className="flex justify-between w-full items-center px-6 py-3 m-0 text-white border-b-[#f78ca2] border font-Libre_Baskerville h-[15vh]">
       <div className="logo text-2xl font-bold cursor-pointer">TM</div>
       <div className="flex justify-around gap-6 items-center">
         {NavMenuData.map((item, idx) => {
@@ -30,7 +30,7 @@ const NavMenu = () => {
             src={GithubIcon}
           />
         </Link>
-        <button className="border-none rounded py-2 px-3">Resume</button>
+        <button className="border-none secondary py-2 px-3">Resume</button>
       </div>
     </nav>
   );

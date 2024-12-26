@@ -2,23 +2,25 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="w-full flex py-28 justify-center py-18 h-[90vh]">
-      <div className="container text-center">
-        <h1 className="text-[5rem] font-extrabold text-white leading-[6rem]">
-          Hey!
+    <div className="w-full flex py-20 justify-center px-20 h-[90vh]">
+      <div className="container flex flex-col gap-2">
+        <div className="w-full">
+          <span className="text-pink-100 pr-5 pb-4 text-xl">Hi, I'm</span>
+          <h1 className="text-[4rem] font-semibold text-white leading-[5rem] w-3/4">
+            Tracy, <br />
+            Software developer
+          </h1>
+        </div>
+        <p className="text-[18px] text-pink-50 leading-7 w-3/4 font-light pt-4 pb-12">
+          I have over 2 years of experience building things for the internet.
           <br />
-          I`m Tracy
-        </h1>
-        <p className="text-xl leading-8 font-light py-6">
-          I am a software developer with over 2 years of experience who loves to
-          build things for the internet.
-          <br />
-          Ready to level up your online presence with an awesome website? Check
-          out some of my best work!
+          My specialty is in creating and maintaining websites for different
+          establishments and elevating their online presence. I try my best to
+          create sustainable and afforadable software solutions.
         </p>
         <Link
           href={"#button"}
-          className="bg-[#ff7f51] rounded-xl py-3 px-16 text-white text-xl"
+          className="primary rounded-xl w-[500px] text-center py-3 px-16 text-white font-semibold text-xl"
         >
           Go to projects
         </Link>
