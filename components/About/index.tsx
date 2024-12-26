@@ -22,7 +22,7 @@ const About = () => {
           <h2 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl">
             About me
           </h2>
-          <p className="leading-7 py-4 lg:w-4/5 w-full lg:text-right text-center text-pink-50">
+          <p className="leading-7 py-4 lg:w-4/5 w-full lg:text-right text-sm sm:text-[16px] text-center text-pink-50">
             Hello, my name is Tracy. I`m a software developer based in Zambia. I
             love bringing my ideas to life on my laptop. I am sure that part was
             obvious :) I have had the priveledge of working with a few local
@@ -31,12 +31,12 @@ const About = () => {
             collaborations and opportunities! If you got an idea you wanna bring
             to life, don`t hesitate to reach out.
           </p>
-          <div className="pt-4">
-            <h4 className="pt-5 xl:text-2xl text-xl">
-              Here are a couple of technologies I work with
+          <div className="pt-4 w-full md:w-3/5 lg:w-2/5">
+            <h4 className="pt-5 xl:text-2xl text-center lg:text-right text-xl">
+              Technologies I work with
             </h4>
-            <div className="ml-auto">
-              <ul className="grid grid-cols-2 text-m list-disc text-left py-5 px-5">
+            <div className="xl:ml-auto pl-8 md:pl-0">
+              <ul className="sm:grid sm:grid-cols-2 text-m list-disc mx-auto sm:mx-0 text-left py-5 px-5">
                 {techStack.map((item, idx) => (
                   <li className="p-1" key={idx}>
                     {item}
@@ -47,11 +47,11 @@ const About = () => {
           </div>
         </article>
       </div>
-      <div className="pb-6 pt-16 flex flex-col items-center gap-9 w-full sm:px-12">
-        <h2 className="lg:text-3xl text-2xl xl:font-semibold py-8">
+      <div className="pb-6 pt-16 flex flex-col sm:items-start items-center gap-9 w-full sm:px-12">
+        <h2 className="lg:text-3xl text-left text-2xl py-8">
           Where I`ve worked
         </h2>
-        <div className="xl:w-[85%] w-full flex flex-col gap-12">
+        <div className="w-full flex flex-col gap-12">
           <div className="sm:w-[500px] sm:mr-auto border-l-[#f78ca2] border-s p-3 flex flex-col gap-4 ">
             <div className="flex justify-between">
               <Link
@@ -71,7 +71,7 @@ const About = () => {
               <li>Evaluate user feedback and optimize website accordingly</li>
             </ul>
           </div>
-          <div className="sm:w-[500px] sm:ml-auto p-3 flex flex-col gap-4 border-s border-l-[#f78ca2]">
+          <div className="sm:w-[500px] sm:ml-auto self-end p-3 flex flex-col gap-4 border-s border-l-[#f78ca2]">
             <div className="flex justify-between">
               <Link
                 href={"https://linkedin.com/company/ipahive"}

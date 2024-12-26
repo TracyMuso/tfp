@@ -14,7 +14,7 @@ const NavMenu = () => {
           return (
             <Link
               key={idx}
-              className="hover:underline hover:decoration-1"
+              className="hover:underline hover:decoration-1 hover:text-orange-600"
               href={item.url}
             >
               {item.title}
